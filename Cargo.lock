@@ -196,6 +196,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "data-analysis-rs"
+version = "0.1.0"
+dependencies = [
+ "calamine",
+ "colored",
+ "linregress",
+ "parking_lot",
+ "serde",
+ "tokio",
+ "warp",
+]
+
+[[package]]
 name = "digest"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -227,19 +240,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7268b386296a025e474d5140678f75d6de9493ae55a5d709eeb9dd08149945e1"
 dependencies = [
  "cfg-if 1.0.0",
-]
-
-[[package]]
-name = "energipluss_calculations_app"
-version = "0.1.0"
-dependencies = [
- "calamine",
- "colored",
- "linregress",
- "parking_lot",
- "serde",
- "tokio",
- "warp",
 ]
 
 [[package]]

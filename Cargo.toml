@@ -1,5 +1,5 @@
 [package]
-name = "energipluss_calculations_app"
+name = "data-analysis-rs"
 version = "0.1.0"
 edition = "2021"
 
